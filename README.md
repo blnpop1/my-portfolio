@@ -1,2 +1,2 @@
-# tester1
-Website for me, submitted to phantom hackathon
+# portfolio!
+Website for me, submitted to phantom hackathon, by the tutorial!
