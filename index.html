@@ -2,10 +2,11 @@
 <html>
     <head>
         <title>My Portfolio</title>
+        <!-- Tailwind CSS, looks great!-->
         <script src ="https://cdn.tailwindcss.com"></script>
     </head>
-    <body class="text-center bg-yellow-150 p-10">
-        <div class="top-color-bar"></div> <!-- still figuring this out-->
+    <body class="text-center bg-yellow-200 p-10"> <!--I wonder why 200 really works, other nums don't-->
+        <div class="top-color-bar"></div> <!-- still figuring this out, might ditch-->
         <div style="padding: 20px;">
             <h1 class="text-green-500 text-5xl font-bold">Abhinav Goli</h1>
             <p class="text-red-600 text-2xl p-10">I'm excited to be part of this hackathon!</p>
@@ -20,5 +21,12 @@
             <p class="p-10">---</p>
             <a href="https://ocsefhacks.org" target="_blank" class="text-blue-500 hover:text-blue-700 underline">Visit our website!</a>
         </div>
-        </body>
+        <!-- button that does cool stuff -->
+         <!-- wow formatting like this is a lot easier-->
+        <button
+            onclick="alert('Button was clicked!')"
+            class="bg-blue-300 hover:bg-blue-500 text-white font-bold">
+            Click Me!
+        </button>
+    </body>
 </html>
